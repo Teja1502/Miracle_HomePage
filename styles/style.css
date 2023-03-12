@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+header .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 86px;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+header .profile-icon img{
+    width: 30px;
+    margin-right: 2em;
+}
+
+header nav .nav-list {
+    display: flex;
+    list-style: none;
+}
+
+header nav .nav-list .list-items {
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+header nav .nav-list .list-items a{
+    text-decoration: none;
+    color: grey;
+}
+
+header nav .nav-list .list-items a:hover {
+    color: aqua;
+}
+
+header .container .logo {
+    margin-right: auto;
+    margin-left: 2em;
+}
+
+header .container .logo h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+header .container .logo h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f87b1;
+    margin-top: 0px;
+}
+
+.image-post {
+    margin-bottom: 25px;
+}
+
+.row-list .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+
+.row-list .container .row-items {
+    padding: 20px;
+}
+
+.row-list .container .row-items .image-info h4 {
+    font-size: 22px;
+    color: aqua;
+    font-weight: bold;
+}
+
+.row-list .container .row-items .image-info p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.passage-info {
+    margin: 10px;
+}
+
+.passage-info h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: aqua;
+}
+
+.passage-info p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.passage-info button {
+    height: 35px;
+    width: auto;
+    border-radius: 8px;
+    background-color: rgb(19, 128, 155);
+    border: 1px solid rgb(19, 128, 155);
+    color: white;
+}
+
+.bottom-bar .container {
+    padding: 25px 0px;
+    background-color: grey;
+    opacity: 0.7;
+}
+
+.bottom-bar .container p{
+    color: black;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.bottom-bar .icon-images .icon-list .icon-item {
+    height: 10px;
+    width: 10px;
+}
