@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+header .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 86px;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+header .profile-icon img{
+    width: 30px;
+    margin-right: 2em;
+}
+
+header nav .nav-list {
+    display: flex;
+    list-style: none;
+}
+
+header nav .nav-list .list-items {
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+header nav .nav-list .list-items a{
+    text-decoration: none;
+    color: grey;
+}
+
+header nav .nav-list .list-items a:hover {
+    color: aqua;
+}
+
+header .container .logo {
+    margin-right: auto;
+    margin-left: 2em;
+}
+
+header .container .logo h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+header .container .logo h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f87b1;
+    margin-top: 0px;
+}
+
+
+.image-post .image-background img {
+    height: 150px;
+    width: 100%;
+}
+
+.image-post {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.image-post .container {
+    position: absolute;
+    top: 15%;
+    padding: 10px;
+    display: flex;
+    color: grey;
+}
+
+.image-post .container h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.image-post .container p {
+    align-self: center;
+    margin-left: 900px;
+    font-size: 18px;
+}
+
+
+
+.info-content .container {
+    margin: 0px 25px;
+    padding: 0px 10px;
+}
+
+.info-content .container .block-info {
+    margin-bottom: 35px;
+}
+
+.info-content .container .contact-form {
+    padding: 30px;
+    background-color: grey;
+    opacity: 0.75;
+    border-radius: 3px;
+}
+
+.info-content .container .contact-form h4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+}
+
+.info-content .container .contact-form form input {
+    height: 25px;
+    border-radius: 3px;
+    border: 1px;
+    margin-right: 15px;
+    width: 180px;
+}
+
+.info-content .container .contact-form form textarea {
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.info-content .container .contact-form form button {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px;
+    background: blue;
+    color: white;
+}
